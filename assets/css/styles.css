@@ -1,0 +1,227 @@
+/*FLEXBOX GALLERY*/
+.wrapper {
+	-webkit-display:flex;
+	-moz-display:flex;
+	-ms-display:flex;
+	-o-display:flex; 
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+	.images1 {
+		background:url(../img/placeholder.png);
+		width:80vw;
+		height:20vh;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		margin:1em 0;
+  		border:2px black solid;
+	}
+	.images2 {
+		background:url(../img/placeholder.png);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		margin:1em 0;
+  		border:2px black solid;
+	}
+	.images3 {
+		background:url(../img/placeholder.png);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		margin:1em 0;
+  		border:2px black solid;
+	}
+	.images4 {
+		background:url(../img/placeholder.png);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		margin:1em 0;
+  		border:2px black solid;
+ 
+	}
+	.images5 {
+		background:url(../img/placeholder.png);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		margin:1em 0;
+  		border:2px black solid;
+	}
+	.images6 {
+		background:url(../img/placeholder.png);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		margin:1em 0;
+  		border:2px black solid;
+	}
+	.images7 {
+		background:url(../img/placeholder.png);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		margin:1em 0;
+  		border:2px black solid;
+	}
+	.images8 {
+		background:url(../img/placeholder.png);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		margin:1em 0;
+  		border:2px black solid;
+	}
+	.images9 {
+		background:url(../img/placeholder.png);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		margin:1em 0;
+  		border:2px black solid;
+	}
+	.images10 {
+		background:url(../img/placeholder.png);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		margin:1em 0; 
+  		border:2px black solid;
+	}
+	.images11 {
+		background:url(../img/placeholder.png);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		margin:1em 0;
+  		border:2px black solid;
+	}
+	.images12 {
+		background:url(../img/placeholder.png);
+		width:80vw;
+		height:20vh;
+		 -webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		margin:1em 0;
+  		border:2px black solid;
+	}
+	.middle {
+		-webkit-display:flex;
+		-moz-display:flex;
+		-ms-display:flex;
+		-o-display:flex; 
+		display:flex;
+		flex-direction:column;
+ 	}
+	.centre-image {
+		background:url(../img/placeholder2.png);
+		width:80vw;
+		margin:1em 0;
+		height:20vh;
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+  		border:4px black solid;
+	}
+
+
+@media screen and (min-width:600px){
+
+		.centre-image {
+			height:50vh;
+		}
+		.images1, .images2, .images3,  .images4, .images5, .images6, .images7, .images8, .images9, .images10, .images11, .images12 {
+			height:50vh;
+		}
+}
+
+@media screen and (min-width:960px){
+	.wrapper{
+		width:100vw;
+	}
+	.top {
+		-webkit-display:flex;
+		-moz-display:flex;
+		-ms-display:flex;
+		-o-display:flex; 
+		display:flex;
+		flex-direction:row;
+		border:2px orange solid;
+	}
+		.images1, .images2, .images3, .images4 {
+			width:25vw;
+			height:25vh;
+			margin:0;
+		}
+	.middle {
+		-webkit-display:flex;
+		-moz-display:flex;
+		-ms-display:flex;
+		-o-display:flex; 
+		display:flex;
+		flex-direction:row;
+		width:100vw;
+		border:2px orange solid;
+	}
+	.images5, .images6, .images7, .images8 {
+		width:25vw;
+		height:25vh;
+		margin:0;
+	}
+	.centre-image {
+		width:50vw;
+		margin:0;
+		height:50vh;
+	}	
+	.bottom {
+		-webkit-display:flex;
+		-moz-display:flex;
+		-ms-display:flex;
+		-o-display:flex; 
+		display:flex;
+		flex-direction:row;
+		border:2px orange solid;
+	}
+		.images9, .images10, .images11, .images12 {
+			width:25vw;
+			height:25vh;
+			margin:0;
+		}
+}
